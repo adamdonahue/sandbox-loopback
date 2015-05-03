@@ -4,12 +4,16 @@
     "connector": "memory"
   },
   "mysqlDatasource": {
-    "name": "mysqlDatasource",
-    "connector": "mysql",
     "host": "localhost",
     "port": 3306,
     "database": "rescue",
     "username": "rescue",
-    "password": ""
+    "password": "",
+    "name": "mysqlDatasource",
+    "connector": "mysql"
+  },
+  "mongoDatasource": {
+    "name": "mongoDatasource",
+    "connector": "mongodb"
   }
 }
