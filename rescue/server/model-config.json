@@ -37,5 +37,9 @@
   "Measure": {
     "dataSource": "db",
     "public": true
+  },
+  "RecipeIngredient": {
+    "dataSource": "db",
+    "public": true
   }
 }
