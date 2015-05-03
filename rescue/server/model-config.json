@@ -29,5 +29,13 @@
   "Recipe": {
     "dataSource": "mysqlDatasource",
     "public": true
+  },
+  "Ingredient": {
+    "dataSource": "mysqlDatasource",
+    "public": true
+  },
+  "Measure": {
+    "dataSource": "db",
+    "public": true
   }
 }
